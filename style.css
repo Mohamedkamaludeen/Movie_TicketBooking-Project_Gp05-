@@ -1,0 +1,323 @@
+.nav img{
+    width:50px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(theater.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.menues{
+    text-align: center;
+    padding:25px;
+}
+nav img{
+    width : 150px;
+  }
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 800;
+  }
+  .movieinfo{
+    text-align: center;
+    /*background-color: #050A30;*/
+    color: #fff;
+    padding: 25px;
+    padding-top: 100px;
+  }
+  .moviesimg-col{
+    flex-basis: 50%;
+    box-sizing: border-box;
+    transition: 1s;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  .movies-col{
+    flex-basis: 50%;
+    box-sizing: border-box;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: -150px;
+
+  }
+  .moviesimg-col img{
+    size: 100%;
+    width :300px;
+    height: 400px;
+    margin:10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 75px; 
+  }
+  .seatBook{
+    text-align: center;
+    background-color:#050A30;
+    color: #fff;
+    padding: 50px 50px;
+  }
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+  *{
+    box-sizing: border-box;
+  }
+
+
+.seatBooking{
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lato', 'sans-serif';
+  margin-top: 200px;
+}
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.seat {
+  background-color: #444451;
+  height: 30px;
+  width: 33px;
+  margin: 5px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: #6feaf6;
+  color:#000;
+  
+}
+
+.seat.occupied {
+  background-color: #fff;
+  color:#000;
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat_num{
+  background-color: #444451;
+  height: 30px;
+  width: 33px;
+  margin: 5px;
+  text-align: center;
+  color:#fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat_num:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat_num:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 10px;
+}
+
+.rowscreen{
+  display: flex;
+  margin-left: 400px;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 60%;
+  margin: 20px 250px 50px;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+}
+
+p.text {
+  margin: 5px 0;
+  margin-bottom: 50px;
+}
+
+p.text span {
+  color: #6feaf6;
+}
+
+
+
+
+/* footer css designing*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 10px 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-col {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/*mobile responsibility*/
+@media(max-width: 700px)
+{
+  .moviesimg-col img{
+    size: 100%;
+    width :150px;
+    height: 250px;
+    margin:30px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 75px; 
+  }
+  .movies-col{
+    flex-basis: 30%;
+    box-sizing: border-box;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: -40px;
+
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+  .seatBooking
+  {
+    margin-top: -50px;
+  }
+  .screen
+  {
+    margin: 20px 100px 50px;
+  }
+  .rowscreen
+  {
+    margin-left: 45px;
+  }
+
+}
