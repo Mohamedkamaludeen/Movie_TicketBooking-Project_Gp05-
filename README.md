@@ -9,12 +9,12 @@ ticket booking..!! , this is a usual problem when we are looking to entertain ou
 
 # the site contains
 
-in the home page we welcoming our users and create some sirt of understanding what kind of site is this.
+in the home page we welcoming our users and create some sort of understanding what kind of site is this.
 on the top of the page there are two tags. first one indicate users still in the home page, and the another one help them to go to movie album that contains all movies which are screening now.
 and also some movies alblums will display on home page also.purpose ,to user understanding and further we can add popular selling movies on that tray to accelarate bussiness.. it can reduce one step and make process fast.
 
 second page is movies.
 
-this cantains all the movies and  user can swipe right to see movies and so on. it's like straight forward page , user can selecr preferable movie by just clicking the movie poster. we include some extra trays for movies so in future we can add more and more movies. and there will be a home button on the top , users can still go step backward to home page.
+this contains all the movies and  user can swipe right to see movies and so on. it's like straight forward page , user can selecr preferable movie by just clicking the movie poster. we include some extra trays for movies so in future we can add more and more movies. and there will be a home button on the top , users can still go step backward to home page.
 
 third page is movie content.
