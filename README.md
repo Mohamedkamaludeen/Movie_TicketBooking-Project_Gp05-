@@ -7,7 +7,7 @@ ref : https://www.google.com/search?client=firefox-b-d&q=bookmyshow
 
 ticket booking..!! , this is a usual problem when we are looking to entertain ourselfs, in our nothern province, kilinochi and mullaitiv don't have theaters . they still  have to come to jaffna if they want to watch films.but how to know are they can get seats or not ???. solution is simple .. if they can access their seats from website and buy some slots for them  it's kind of cool system to everyone. it's not only applicable for out districts even suitable for city people who can't make chaos in movie ticket corners.
 
-# the site contains
+# the site contains:
 
 in the home page we welcoming our users and create some sort of understanding what kind of site is this.
 on the top of the page there are two tags. first one indicate users still in the home page, and the another one help them to go to movie album that contains all movies which are screening now.
