@@ -18,3 +18,6 @@ second page is movies.
 this contains all the movies and  user can swipe right to see movies and so on. it's like straight forward page , user can selecr preferable movie by just clicking the movie poster. we include some extra trays for movies so in future we can add more and more movies. and there will be a home button on the top , users can still go step backward to home page.
 
 third page is movie content.
+
+this will help user to get brief intro to the specific movie that what they willing to book.director's name ,imbd rating,casted actors and story oneline will be display on this page .end of the page there is a book button which redirect to book site.
+
