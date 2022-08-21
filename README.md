@@ -41,3 +41,11 @@ here users can pick their preferable theater and time.after that there is an opt
 
 here we used bootstrap for frontend developing.
 pure php for backend site.
+
+
+# others : 
+main characters of developing in this project sandaz and hamaluthin .they made biggest contribution on this other than saanusan and hathik.
+
+hope we can fullfil expectations.
+
+# thanks
