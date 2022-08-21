@@ -14,6 +14,7 @@ on the top of the page there are two tags. first one indicate users still in the
 and also some movies alblums will display on home page also.purpose ,to user understanding and further we can add popular selling movies on that tray to accelarate bussiness.. it can reduce one step and make process fast.
 
 second page is movies.
+
 this cantains all the movies and  user can swipe right to see movies and so on. it's like straight forward page , user can selecr preferable movie by just clicking the movie poster. we include some extra trays for movies so in future we can add more and more movies. and there will be a home button on the top , users can still go step backward to home page.
 
 third page is movie content.
